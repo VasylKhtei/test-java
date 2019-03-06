@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hello.AppTest" time="0.088" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hello.AppTest" time="0.063" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire8768765790309948926\surefirebooter9154829193225157207.jar C:\Users\Administrator\AppData\Local\Temp\surefire8768765790309948926 2019-03-06T18-04-00_755-jvmRun1 surefire10789294578872974207tmp surefire_015896669422051873858tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire272745812653898430\surefirebooter11085415756901618286.jar C:\Users\Administrator\AppData\Local\Temp\surefire272745812653898430 2019-03-06T18-17-48_701-jvmRun1 surefire4497011012131509913tmp surefire_014459494276444136183tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\Administrator\Desktop\test\simple_java\target\test-classes;c:\Users\Administrator\Desktop\test\simple_java\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire8768765790309948926\surefirebooter9154829193225157207.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire272745812653898430\surefirebooter11085415756901618286.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9-LTS"/>
@@ -61,10 +61,5 @@
     <property name="java.class.version" value="55.0"/>
   </properties>
   <testcase name="shouldAnswerWithTrue" classname="hello.AppTest" time="0.003"/>
-  <testcase name="testWillAlwaysFail" classname="hello.AppTest" time="0.012">
-    <failure message="An error message" type="java.lang.AssertionError">java.lang.AssertionError: An error message
-	at hello.AppTest.testWillAlwaysFail(AppTest.java:28)
-</failure>
-  </testcase>
   <testcase name="testNothing" classname="hello.AppTest" time="0"/>
 </testsuite>

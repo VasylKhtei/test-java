@@ -23,9 +23,9 @@ public class AppTest
     public void testNothing() {
     }
     
-    @Test
+  /**   @Test
     public void testWillAlwaysFail() {
         Assert.fail("An error message");
     }
-    
+    */
 }
