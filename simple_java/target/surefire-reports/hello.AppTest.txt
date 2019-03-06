@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: hello.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in hello.AppTest
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.088 s <<< FAILURE! - in hello.AppTest
+testWillAlwaysFail(hello.AppTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: An error message
+	at hello.AppTest.testWillAlwaysFail(AppTest.java:28)
+
